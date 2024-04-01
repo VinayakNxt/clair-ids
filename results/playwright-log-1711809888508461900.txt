@@ -1,0 +1,12 @@
+{"level":30,"time":"2024-03-30T14:44:51.800Z","pid":9124,"hostname":"DESKTOP-DCVK5S4","msg":"Listening on 55003"}
+(node:9124) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-03-30T14:44:51.967Z","pid":9124,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-03-30T14:44:51.969Z","pid":9124,"hostname":"DESKTOP-DCVK5S4","msg":"currentBrowser: undefined"}
+{"level":30,"time":"2024-03-30T14:44:53.580Z","pid":9124,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active context"}
+{"level":30,"time":"2024-03-30T14:44:53.834Z","pid":9124,"hostname":"DESKTOP-DCVK5S4","msg":"Video path: undefined"}
+{"level":30,"time":"2024-03-30T14:44:53.835Z","pid":9124,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active page"}
+{"level":30,"time":"2024-03-30T14:44:56.651Z","pid":9124,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method newPage"}
+{"level":30,"time":"2024-03-30T14:44:57.326Z","pid":9124,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-03-30T14:44:57.349Z","pid":9124,"hostname":"DESKTOP-DCVK5S4","msg":"Removed page=bd485fe3-6354-42bf-80f3-14a1254df35b from context=1b5b1897-99a7-43c3-93ed-926512311e02 page stack"}
+{"level":30,"time":"2024-03-30T14:44:58.225Z","pid":9124,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method closeAllBrowsers"}

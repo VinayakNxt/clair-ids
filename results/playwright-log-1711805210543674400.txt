@@ -1,0 +1,113 @@
+{"level":30,"time":"2024-03-30T13:26:51.954Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Listening on 62055"}
+(node:9764) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-03-30T13:26:52.553Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:52.555Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:54.329Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:54.329Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:54.345Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-03-30T13:26:55.468Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Adding browser to stack: chromium, version: 121.0.6167.57"}
+{"level":30,"time":"2024-03-30T13:26:55.469Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-03-30T13:26:55.469Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-03-30T13:26:55.480Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-03-30T13:26:55.481Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-03-30T13:26:55.555Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active context"}
+{"level":30,"time":"2024-03-30T13:26:56.424Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Video path: undefined"}
+{"level":30,"time":"2024-03-30T13:26:56.425Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active page"}
+================= Original suppressed error =================
+{"level":30,"time":"2024-03-30T13:26:56.461Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Error of node method  newPage"}
+page.goto: net::ERR_INTERNET_DISCONNECTED at https://arnetta.adaptnxt.in/rmswebapp/login
+Call log:
+  [2m- navigating to "https://arnetta.adaptnxt.in/rmswebapp/login", waiting until "load"[22m
+
+    at newPage (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:10372:18)
+    at async PlaywrightServer.newPage (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-03-30T13:26:56.810Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:8714:11)
+    at takeScreenshot (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:8758:3)
+    at PlaywrightServer.takeScreenshot (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:34)
+    at Object.onReceiveHalfClose (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-03-30T13:26:56.811Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2024-03-30T13:26:56.980Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:56.981Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:56.986Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:56.987Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:56.993Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active context"}
+{"level":30,"time":"2024-03-30T13:26:56.999Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:56.999Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:57.005Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T13:26:57.005Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T13:26:57.009Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T13:26:57.010Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T13:26:57.020Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:57.020Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:57.025Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active context"}
+{"level":30,"time":"2024-03-30T13:26:57.027Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-03-30T13:26:57.066Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-03-30T13:26:57.082Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:57.082Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:57.093Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T13:26:57.093Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T13:26:57.101Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-03-30T13:26:57.101Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-03-30T13:26:57.124Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active context"}
+{"level":30,"time":"2024-03-30T13:26:58.812Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Video path: undefined"}
+{"level":30,"time":"2024-03-30T13:26:58.812Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active page"}
+================= Original suppressed error =================
+page.goto: net::ERR_INTERNET_DISCONNECTED at https://arnetta.adaptnxt.in/rmswebapp/login
+Call log:
+  [2m- navigating to "https://arnetta.adaptnxt.in/rmswebapp/login", waiting until "load"[22m
+
+    at newPage (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:10372:18)
+    at async PlaywrightServer.newPage (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-03-30T13:26:58.834Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+{"level":30,"time":"2024-03-30T13:26:59.033Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method takeScreenshot"}
+Error: Tried to take screenshot, but no page was open.
+    at exists (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:8714:11)
+    at takeScreenshot (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:8758:3)
+    at PlaywrightServer.takeScreenshot (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:34)
+    at Object.onReceiveHalfClose (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-03-30T13:26:59.033Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2024-03-30T13:26:59.197Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:59.198Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:59.202Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:59.207Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active context"}
+{"level":30,"time":"2024-03-30T13:26:59.202Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:59.211Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:59.211Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:59.216Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T13:26:59.216Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T13:26:59.221Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T13:26:59.221Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T13:26:59.234Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:59.234Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:59.240Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active context"}
+{"level":30,"time":"2024-03-30T13:26:59.243Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-03-30T13:26:59.277Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-03-30T13:26:59.297Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:59.297Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T13:26:59.445Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-03-30T13:27:00.536Z","pid":9764,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method closeAllBrowsers"}

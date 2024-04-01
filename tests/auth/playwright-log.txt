@@ -1,0 +1,44 @@
+{"level":30,"time":"2024-04-01T11:06:44.601Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Listening on 51075"}
+(node:9604) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-04-01T11:06:44.909Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method initializeExtension"}
+{"level":30,"time":"2024-04-01T11:06:44.910Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Initializing extension: D:\\NXTProject\\clair-ids\\tests\\auth\\play.js"}
+{"level":30,"time":"2024-04-01T11:06:45.375Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method initializeExtension"}
+{"level":30,"time":"2024-04-01T11:06:45.372Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Adding 1 keywords from JS Extension"}
+{"level":30,"time":"2024-04-01T11:06:45.579Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-01T11:06:45.579Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-01T11:06:46.840Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-01T11:06:46.840Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-01T11:06:46.863Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-04-01T11:06:47.675Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Adding browser to stack: chromium, version: 121.0.6167.57"}
+{"level":30,"time":"2024-04-01T11:06:47.676Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-04-01T11:06:47.676Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-04-01T11:06:47.685Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-04-01T11:06:47.686Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-04-01T11:06:47.743Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active context"}
+{"level":30,"time":"2024-04-01T11:06:48.344Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Video path: undefined"}
+{"level":30,"time":"2024-04-01T11:06:48.344Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active page"}
+{"level":30,"time":"2024-04-01T11:06:51.188Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method newPage"}
+{"level":30,"time":"2024-04-01T11:06:51.197Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method typeText"}
+{"level":30,"time":"2024-04-01T11:06:51.198Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Strict mode is enabled, find Locator with id=j_username in page."}
+{"level":30,"time":"2024-04-01T11:06:51.341Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method typeText"}
+{"level":30,"time":"2024-04-01T11:06:51.348Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method typeText"}
+{"level":30,"time":"2024-04-01T11:06:51.349Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Strict mode is enabled, find Locator with id=j_password in page."}
+{"level":30,"time":"2024-04-01T11:06:51.456Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method typeText"}
+{"level":30,"time":"2024-04-01T11:06:51.464Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method click"}
+{"level":30,"time":"2024-04-01T11:06:51.465Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"Strict mode is enabled, find Locator with css=button >> text=Sign In in page."}
+{"level":30,"time":"2024-04-01T11:06:52.542Z","pid":9604,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method click"}
+D:\NXTProject\clair-ids\tests\auth\play.js:27
+        debugConsole('PAGE LOG:', msg.text());
+        ^
+
+ReferenceError: debugConsole is not defined
+    at Page.<anonymous> (D:\NXTProject\clair-ids\tests\auth\play.js:27:9)
+    at Page.emit (node:events:530:35)
+    at Proxy.<anonymous> (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\lib\client\browserContext.js:115:22)
+    at Proxy.emit (node:events:518:28)
+    at Connection.dispatch (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\lib\client\connection.js:200:21)
+    at Immediate.<anonymous> (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\lib\inProcessFactory.js:49:83)
+    at process.processImmediate (node:internal/timers:478:21)
+
+Node.js v20.11.0

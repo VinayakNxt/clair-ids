@@ -1,0 +1,6 @@
+Test Case: ValidLoginScenario
+Date/Time: 2024-03-29 18:46:16
+Failure Reason: https://arnetta.adaptnxt.in/rmswebapp/login?param.error=bad_credentials != https://arnetta.adaptnxt.in/rmswebapp/home
+Test Case: ValidLoginScenario
+Date/Time: 2024-03-29 18:53:06
+Failure Reason: https://arnetta.adaptnxt.in/rmswebapp/login?param.error=bad_credentials != https://arnetta.adaptnxt.in/rmswebapp/home

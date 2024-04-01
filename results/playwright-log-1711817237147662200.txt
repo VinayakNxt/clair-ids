@@ -1,0 +1,24 @@
+{"level":30,"time":"2024-03-30T16:47:19.882Z","pid":26196,"hostname":"DESKTOP-DCVK5S4","msg":"Listening on 55524"}
+(node:26196) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-03-30T16:47:20.283Z","pid":26196,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method initializeExtension"}
+================= Original suppressed error =================
+{"level":30,"time":"2024-03-30T16:47:20.284Z","pid":26196,"hostname":"DESKTOP-DCVK5S4","msg":"Initializing extension: D:\\NXTProject\\clair-ids\\NXTProjectclair-ids\testsauthlog.js"}
+Error: Cannot find module 'D:\NXTProject\clair-ids\NXTProjectclair-ids	estsauthlog.js'
+Require stack:
+- D:\Python312\Lib\site-packages\Browser\wrapper\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at initializeExtension (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:9907:36)
+    at PlaywrightServer.initializeExtension (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:34)
+    at Object.onReceiveHalfClose (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'D:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js' ]
+}
+=============================================================
+{"level":30,"time":"2024-03-30T16:47:20.285Z","pid":26196,"hostname":"DESKTOP-DCVK5S4","msg":"Error of node method  initializeExtension"}

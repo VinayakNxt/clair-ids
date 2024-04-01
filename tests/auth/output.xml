@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-01T16:36:43.513251" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Auth" source="D:\NXTProject\clair-ids\tests\auth\login_auth.robot">
+<test id="s1-t1" name="ValidLoginScenario" line="19">
+<kw name="OpenGoogle">
+<kw name="OpenBrowser" owner="login_pageObjects">
+<kw name="New Browser" owner="Browser">
+<msg time="2024-04-01T16:36:46.859913" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "D:\\NXTProject\\clair-ids\\tests\\auth\\browser\\traces\\a0467d02-214d-4e87-b339-da81b0080464"}</msg>
+<msg time="2024-04-01T16:36:47.679533" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"D:\\NXTProject\\clair-ids\\tests\\auth\\browser\\traces\\a0467d02-214d-4e87-b339-da81b0080464"}</msg>
+<arg>chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-04-01T16:36:46.858916" elapsed="0.821620"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-04-01T16:36:51.193270" level="INFO">Successfully initialized new page object and opened url: https://arnetta.adaptnxt.in/rmswebapp/login</msg>
+<msg time="2024-04-01T16:36:51.193270" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>url=${url}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-04-01T16:36:47.680536" elapsed="3.512734"/>
+</kw>
+<arg>${url}</arg>
+<status status="PASS" start="2024-04-01T16:36:46.852676" elapsed="4.340594"/>
+</kw>
+<kw name="EnterUserName" owner="login_pageObjects">
+<kw name="Type Text" owner="Browser">
+<msg time="2024-04-01T16:36:51.194266" level="INFO">Types the text 'admin' in the given field.</msg>
+<arg>${usernameTextField}</arg>
+<arg>${username}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2024-04-01T16:36:51.194266" elapsed="0.150572"/>
+</kw>
+<arg>${username}</arg>
+<status status="PASS" start="2024-04-01T16:36:51.194266" elapsed="0.150572"/>
+</kw>
+<kw name="EnterPassword" owner="login_pageObjects">
+<kw name="Type Text" owner="Browser">
+<msg time="2024-04-01T16:36:51.345836" level="INFO">Types the text 'micro@123' in the given field.</msg>
+<arg>${passwordTextField}</arg>
+<arg>${password}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2024-04-01T16:36:51.345836" elapsed="0.113320"/>
+</kw>
+<arg>${password}</arg>
+<status status="PASS" start="2024-04-01T16:36:51.345836" elapsed="0.113320"/>
+</kw>
+<kw name="SignInButton" owner="login_pageObjects">
+<kw name="Click" owner="Browser">
+<arg>${signinButton}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2024-04-01T16:36:51.461151" elapsed="1.084930"/>
+</kw>
+<arg>${signinButton}</arg>
+<status status="PASS" start="2024-04-01T16:36:51.460153" elapsed="1.085928"/>
+</kw>
+<kw name="Get Url" owner="Browser">
+<msg time="2024-04-01T16:36:52.554471" level="INFO">${currentURL} = https://arnetta.adaptnxt.in/rmswebapp/home</msg>
+<var>${currentURL}</var>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" start="2024-04-01T16:36:52.547078" elapsed="0.007393"/>
+</kw>
+<kw name="Browser Logs" owner="Browser">
+<msg time="2024-04-01T16:36:54.387594" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Playwright process has been terminated with code 1</msg>
+<msg time="2024-04-01T16:36:54.389145" level="INFO">See also file:///D:/NXTProject/clair-ids/tests/auth/playwright-log.txt for additional details.</msg>
+<msg time="2024-04-01T16:36:54.389145" level="FAIL">Connection reset</msg>
+<var>${logs}</var>
+<arg>${currentURL}</arg>
+<doc>TODO: Add rfdoc string to exposed function to create documentation</doc>
+<status status="FAIL" start="2024-04-01T16:36:52.555466" elapsed="1.840402">Connection reset</status>
+</kw>
+<kw name="ValidateUrl" owner="login_pageObjects">
+<arg>${expected_result}</arg>
+<status status="NOT RUN" start="2024-04-01T16:36:54.395868" elapsed="0.001034"/>
+</kw>
+<arg>username=admin</arg>
+<arg>password=micro@123</arg>
+<arg>expected_result=https://arnetta.adaptnxt.in/rmswebapp/home</arg>
+<status status="FAIL" start="2024-04-01T16:36:46.850534" elapsed="7.546368">Connection reset</status>
+</kw>
+<status status="FAIL" start="2024-04-01T16:36:46.833956" elapsed="7.563907">Connection reset</status>
+</test>
+<test id="s1-t2" name="ValidLoginScenario" line="19">
+<kw name="OpenGoogle">
+<kw name="OpenBrowser" owner="login_pageObjects">
+<kw name="New Browser" owner="Browser">
+<msg time="2024-04-01T16:36:54.415166" level="INFO">Switching browser to browser=704611ef-b998-496f-bcfc-8d0c1fade490</msg>
+<msg time="2024-04-01T16:36:54.415166" level="FAIL">ConnectionError: Playwright process has been terminated with code 1</msg>
+<arg>chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="FAIL" start="2024-04-01T16:36:54.414172" elapsed="0.006563">ConnectionError: Playwright process has been terminated with code 1</status>
+</kw>
+<kw name="New Page" owner="Browser">
+<arg>url=${url}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="NOT RUN" start="2024-04-01T16:36:54.421498" elapsed="0.000000"/>
+</kw>
+<arg>${url}</arg>
+<status status="FAIL" start="2024-04-01T16:36:54.413171" elapsed="0.008327">ConnectionError: Playwright process has been terminated with code 1</status>
+</kw>
+<kw name="EnterUserName" owner="login_pageObjects">
+<arg>${username}</arg>
+<status status="NOT RUN" start="2024-04-01T16:36:54.422478" elapsed="0.000000"/>
+</kw>
+<kw name="EnterPassword" owner="login_pageObjects">
+<arg>${password}</arg>
+<status status="NOT RUN" start="2024-04-01T16:36:54.422478" elapsed="0.000000"/>
+</kw>
+<kw name="SignInButton" owner="login_pageObjects">
+<arg>${signinButton}</arg>
+<status status="NOT RUN" start="2024-04-01T16:36:54.423474" elapsed="0.000000"/>
+</kw>
+<kw name="Get Url" owner="Browser">
+<var>${currentURL}</var>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="NOT RUN" start="2024-04-01T16:36:54.423474" elapsed="0.000000"/>
+</kw>
+<kw name="Browser Logs" owner="Browser">
+<var>${logs}</var>
+<arg>${currentURL}</arg>
+<doc>TODO: Add rfdoc string to exposed function to create documentation</doc>
+<status status="NOT RUN" start="2024-04-01T16:36:54.424209" elapsed="0.000000"/>
+</kw>
+<kw name="ValidateUrl" owner="login_pageObjects">
+<arg>${expected_result}</arg>
+<status status="NOT RUN" start="2024-04-01T16:36:54.424209" elapsed="0.000000"/>
+</kw>
+<arg>username=vinayak</arg>
+<arg>password=micro@123</arg>
+<arg>expected_result=https://arnetta.adaptnxt.in/rmswebapp/home</arg>
+<status status="FAIL" start="2024-04-01T16:36:54.409357" elapsed="0.015952">ConnectionError: Playwright process has been terminated with code 1</status>
+</kw>
+<status status="FAIL" start="2024-04-01T16:36:54.405822" elapsed="0.019487">ConnectionError: Playwright process has been terminated with code 1</status>
+</test>
+<status status="FAIL" start="2024-04-01T16:36:43.515226" elapsed="10.916452"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Login Auth">Login Auth</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-04-01T16:36:54.387594" level="WARN">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Playwright process has been terminated with code 1</msg>
+<msg time="2024-04-01T16:36:54.399400" level="ERROR">Calling method '_end_test' of listener 'Browser' failed: ConnectionError: Playwright process has been terminated with code 1</msg>
+<msg time="2024-04-01T16:36:54.405146" level="WARN">Multiple tests with name 'ValidLoginScenario' executed in suite 'Login Auth'.</msg>
+<msg time="2024-04-01T16:36:54.426567" level="ERROR">Calling method '_end_test' of listener 'Browser' failed: ConnectionError: Playwright process has been terminated with code 1</msg>
+<msg time="2024-04-01T16:36:54.433298" level="ERROR">Calling method '_end_suite' of listener 'Browser' failed: ConnectionError: Playwright process has been terminated with code 1</msg>
+</errors>
+</robot>

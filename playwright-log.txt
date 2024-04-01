@@ -1,0 +1,9 @@
+{"level":30,"time":"2024-04-01T11:39:23.048Z","pid":2196,"hostname":"DESKTOP-DCVK5S4","msg":"Listening on 49821"}
+(node:2196) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-04-01T11:39:23.550Z","pid":2196,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method initializeExtension"}
+{"level":30,"time":"2024-04-01T11:39:23.551Z","pid":2196,"hostname":"DESKTOP-DCVK5S4","msg":"Initializing extension: D:\\NXTProject\\clair-ids\\tests\\auth\\play.js"}
+{"level":30,"time":"2024-04-01T11:39:28.529Z","pid":2196,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method initializeExtension"}
+{"level":30,"time":"2024-04-01T11:39:28.527Z","pid":2196,"hostname":"DESKTOP-DCVK5S4","msg":"Adding 1 keywords from JS Extension"}
+{"level":30,"time":"2024-04-01T11:39:29.371Z","pid":2196,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-04-01T11:39:29.372Z","pid":2196,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method closeAllBrowsers"}

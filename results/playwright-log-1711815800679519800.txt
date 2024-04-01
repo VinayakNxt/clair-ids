@@ -1,0 +1,31 @@
+{"level":30,"time":"2024-03-30T16:23:22.657Z","pid":10692,"hostname":"DESKTOP-DCVK5S4","msg":"Listening on 55362"}
+(node:10692) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-03-30T16:23:23.411Z","pid":10692,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method initializeExtension"}
+{"level":30,"time":"2024-03-30T16:23:23.412Z","pid":10692,"hostname":"DESKTOP-DCVK5S4","msg":"Initializing extension: D:\\NXTProject\\clair-ids\\tests\\auth\\log.js"}
+================= Original suppressed error =================
+ReferenceError: window is not defined
+    at D:\NXTProject\clair-ids\tests\auth\log.js:17:5
+    at Object.<anonymous> (D:\NXTProject\clair-ids\tests\auth\log.js:35:3)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at initializeExtension (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:9907:36)
+    at PlaywrightServer.initializeExtension (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:34)
+=============================================================
+{"level":30,"time":"2024-03-30T16:23:23.414Z","pid":10692,"hostname":"DESKTOP-DCVK5S4","msg":"Error of node method  initializeExtension"}
+D:\NXTProject\clair-ids\tests\auth\log.js:7
+            window.myConsoleLogs = window.myConsoleLogs || [];
+            ^
+
+ReferenceError: window is not defined
+    at D:\NXTProject\clair-ids\tests\auth\log.js:7:13
+    at console.log (D:\NXTProject\clair-ids\tests\auth\log.js:9:11)
+    at errorResponse (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:8632:11)
+    at PlaywrightServer.initializeExtension (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:10713:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v20.11.0

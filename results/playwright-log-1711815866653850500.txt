@@ -1,0 +1,26 @@
+{"level":30,"time":"2024-03-30T16:24:27.861Z","pid":17164,"hostname":"DESKTOP-DCVK5S4","msg":"Listening on 55378"}
+(node:17164) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-03-30T16:24:28.361Z","pid":17164,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method initializeExtension"}
+{"level":30,"time":"2024-03-30T16:24:28.363Z","pid":17164,"hostname":"DESKTOP-DCVK5S4","msg":"Initializing extension: D:\\NXTProject\\clair-ids\\tests\\authlog.js"}
+================= Original suppressed error =================
+Error: Cannot find module 'D:\NXTProject\clair-ids\tests\authlog.js'
+Require stack:
+- D:\Python312\Lib\site-packages\Browser\wrapper\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at initializeExtension (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:9907:36)
+    at PlaywrightServer.initializeExtension (D:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:34)
+    at Object.onReceiveHalfClose (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (D:\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'D:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js' ]
+}
+=============================================================
+{"level":30,"time":"2024-03-30T16:24:28.364Z","pid":17164,"hostname":"DESKTOP-DCVK5S4","msg":"Error of node method  initializeExtension"}
+{"level":30,"time":"2024-03-30T16:24:28.830Z","pid":17164,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-03-30T16:24:28.830Z","pid":17164,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method closeAllBrowsers"}

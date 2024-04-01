@@ -1,0 +1,95 @@
+{"level":30,"time":"2024-03-30T12:36:10.018Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Listening on 61554"}
+(node:21696) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-03-30T12:36:10.334Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:10.335Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:12.370Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:12.370Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:12.387Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-03-30T12:36:13.614Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Adding browser to stack: chromium, version: 121.0.6167.57"}
+{"level":30,"time":"2024-03-30T12:36:13.615Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-03-30T12:36:13.615Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-03-30T12:36:13.626Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-03-30T12:36:13.627Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-03-30T12:36:13.719Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active context"}
+{"level":30,"time":"2024-03-30T12:36:14.932Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Video path: undefined"}
+{"level":30,"time":"2024-03-30T12:36:14.932Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active page"}
+{"level":30,"time":"2024-03-30T12:36:17.190Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method newPage"}
+{"level":30,"time":"2024-03-30T12:36:17.211Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method typeText"}
+{"level":30,"time":"2024-03-30T12:36:17.212Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Strict mode is enabled, find Locator with id=j_username in page."}
+{"level":30,"time":"2024-03-30T12:36:17.405Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method typeText"}
+{"level":30,"time":"2024-03-30T12:36:17.415Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method typeText"}
+{"level":30,"time":"2024-03-30T12:36:17.415Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Strict mode is enabled, find Locator with id=j_password in page."}
+{"level":30,"time":"2024-03-30T12:36:17.593Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method typeText"}
+{"level":30,"time":"2024-03-30T12:36:17.605Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method click"}
+{"level":30,"time":"2024-03-30T12:36:17.607Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Strict mode is enabled, find Locator with css=button >> text=Sign In in page."}
+{"level":30,"time":"2024-03-30T12:36:18.759Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method click"}
+{"level":30,"time":"2024-03-30T12:36:18.928Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:18.942Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:18.948Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:18.957Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:18.965Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active context"}
+{"level":30,"time":"2024-03-30T12:36:18.965Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changing current active page: page=77e9211d-425e-4cc3-a317-f33fecf33832"}
+{"level":30,"time":"2024-03-30T12:36:18.965Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active page"}
+{"level":30,"time":"2024-03-30T12:36:18.981Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:18.990Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:18.996Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T12:36:18.998Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T12:36:19.006Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T12:36:19.008Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T12:36:19.015Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changing current active page: page=77e9211d-425e-4cc3-a317-f33fecf33832"}
+{"level":30,"time":"2024-03-30T12:36:19.015Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active page"}
+{"level":30,"time":"2024-03-30T12:36:19.032Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:19.040Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:19.046Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active context"}
+{"level":30,"time":"2024-03-30T12:36:19.046Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changing current active page: page=77e9211d-425e-4cc3-a317-f33fecf33832"}
+{"level":30,"time":"2024-03-30T12:36:19.046Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active page"}
+{"level":30,"time":"2024-03-30T12:36:19.053Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-03-30T12:36:19.083Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Removed page=e0ecccab-50cd-413e-a68e-78e3c521205f from context=c5ed38da-bc2a-4145-b1b6-de03ef167860 page stack"}
+{"level":30,"time":"2024-03-30T12:36:19.349Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-03-30T12:36:19.556Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:19.557Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:19.572Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T12:36:19.573Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T12:36:19.581Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-03-30T12:36:19.582Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-03-30T12:36:19.603Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active context"}
+{"level":30,"time":"2024-03-30T12:36:20.343Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Video path: undefined"}
+{"level":30,"time":"2024-03-30T12:36:20.343Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active page"}
+{"level":30,"time":"2024-03-30T12:36:22.620Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method newPage"}
+{"level":30,"time":"2024-03-30T12:36:22.633Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method typeText"}
+{"level":30,"time":"2024-03-30T12:36:22.633Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Strict mode is enabled, find Locator with id=j_username in page."}
+{"level":30,"time":"2024-03-30T12:36:22.783Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method typeText"}
+{"level":30,"time":"2024-03-30T12:36:22.794Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method typeText"}
+{"level":30,"time":"2024-03-30T12:36:22.794Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Strict mode is enabled, find Locator with id=j_password in page."}
+{"level":30,"time":"2024-03-30T12:36:22.920Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method typeText"}
+{"level":30,"time":"2024-03-30T12:36:22.930Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Strict mode is enabled, find Locator with css=button >> text=Sign In in page."}
+{"level":30,"time":"2024-03-30T12:36:22.930Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method click"}
+{"level":30,"time":"2024-03-30T12:36:23.941Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method click"}
+{"level":30,"time":"2024-03-30T12:36:24.479Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:24.488Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:24.493Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:24.497Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:24.503Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active context"}
+{"level":30,"time":"2024-03-30T12:36:24.503Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changing current active page: page=d1c317d6-bf0d-4556-a650-95a72d03fa05"}
+{"level":30,"time":"2024-03-30T12:36:24.503Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active page"}
+{"level":30,"time":"2024-03-30T12:36:24.513Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:24.516Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:24.522Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T12:36:24.524Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T12:36:24.529Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T12:36:24.530Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-30T12:36:24.536Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changing current active page: page=d1c317d6-bf0d-4556-a650-95a72d03fa05"}
+{"level":30,"time":"2024-03-30T12:36:24.536Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active page"}
+{"level":30,"time":"2024-03-30T12:36:24.549Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:24.555Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:24.559Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active context"}
+{"level":30,"time":"2024-03-30T12:36:24.559Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changing current active page: page=d1c317d6-bf0d-4556-a650-95a72d03fa05"}
+{"level":30,"time":"2024-03-30T12:36:24.559Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Changed active page"}
+{"level":30,"time":"2024-03-30T12:36:24.564Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-03-30T12:36:24.580Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Removed page=d3828331-14b6-4878-9206-925803f720a7 from context=e43fc88e-ef60-471c-8be8-82382285a904 page stack"}
+{"level":30,"time":"2024-03-30T12:36:25.191Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-03-30T12:36:25.761Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:25.761Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-30T12:36:26.324Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-03-30T12:36:27.913Z","pid":21696,"hostname":"DESKTOP-DCVK5S4","msg":"End of node method closeAllBrowsers"}
